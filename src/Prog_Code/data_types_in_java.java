@@ -5,7 +5,7 @@ public class data_types_in_java
 	public static void main(String[] args) 
 	{
 		// Different Datatypes in java
-
+		
 		char c = 'R';
 
 		int a = 9;
