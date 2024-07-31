@@ -34,9 +34,10 @@ package Prog_Code;
  * }
  * 
  * public static void main(String[] args) { static_word.demo(); static_word.c =
- * "Roshan"; System.out.
- * println("This is the static variable text that assigned to it in main method:- "
- * static_word.c); System.out.println("End of Program Execution");
+ * "Roshan"; 
+ * System.out.println("This is the static variable text that assigned to it in main method:- "
+ * static_word.c); 
+ * System.out.println("End of Program Execution");
  * 
  * } }
  */

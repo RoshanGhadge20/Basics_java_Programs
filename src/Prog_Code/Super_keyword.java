@@ -1,6 +1,7 @@
 package Prog_Code;
 
-public class Super_keyword {
+public class Super_keyword 
+{
 	
 	String name="Roshan";
 	
@@ -13,5 +14,5 @@ public class Super_keyword {
 	{
 		System.out.println("Calling from parent Super constructor");
 	}
-
+	
 }

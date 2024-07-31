@@ -29,9 +29,7 @@ public class variable_creations {
 		 */		
 		//Conditional operator 
 		//	System.out.println("Output from conditional operator"+ ((a>3)?0:5));
-		
-		
-		
+
 	}
 
 }

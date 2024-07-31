@@ -8,8 +8,7 @@ import javax.swing.plaf.basic.BasicTextUI.BasicCaret;
 public class wrapper_class {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+
 		//Autoboxing
 		 int a=10; // This is the normal int datatype as we are dclaring 
 		 System.out.println("int:- "+ a);

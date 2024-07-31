@@ -11,8 +11,7 @@ public class This_key {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		
 		This_key obj = new This_key();
 		obj.getdata(6);
 
