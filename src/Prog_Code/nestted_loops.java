@@ -23,7 +23,7 @@ public class nestted_loops {
 //		456
 //		78910
 		
-		
+		System.out.println("****************");
 		for(int i=1;i<=4;i++)
 		{
 			for(int j=1;j<=i;j++)
@@ -33,6 +33,20 @@ public class nestted_loops {
 				k++;
 			}
 			System.out.println("");
+		}
+		
+		
+		System.out.println("----------------");
+		int c=1;
+		for(int a=1;a<4;a++)
+		{
+			for(int b=5-a;b>0;b--)
+			{
+				System.out.print(c);
+				System.out.print("\t");
+				c++;
+			}
+			System.out.println();
 		}
 			
 	}

@@ -1,7 +1,9 @@
 package Prog_Code;
 
-public class Arrays_Multidimensional {
-	public static void main(String[] args) {
+public class Arrays_Multidimensional 
+{
+	public static void main(String[] args) 
+	{
 		 
 		/*
 		 * int a[][]=new int[3][3]; a[0][1]=1; a[0][2]=2; a[1][0]=1; a[1][1]=2;
@@ -22,7 +24,5 @@ public class Arrays_Multidimensional {
 			}
 			System.out.println("");
 		}
-		
 	}
-
 }
