@@ -14,7 +14,7 @@ public class wrapper_class {
 		 System.out.println("int:- "+ a);
 		 
 		 Integer ab=Integer.valueOf(a);
-		 Integer ab=a;
+		// Integer ab=a;
 		 System.out.println("Integer"+ab);
 		 
 		 // unboxing
