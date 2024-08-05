@@ -11,6 +11,8 @@ public class reverse_a_string
 		{
 			c=name.charAt(i);
 			rev_str=c+rev_str;
+			//rev_str=rev_str+c get string name with correct order 
+			
 		}
 		System.out.println(rev_str);
 	}
