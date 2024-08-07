@@ -18,7 +18,6 @@ public class count_occurance_of_word_in_string
 			}
 		}
 		
-		System.out.println("Counting the occurance of word into string "+ countHashMap);
-		
+		System.out.println("Counting the occurance of word into string "+count);
 	}
 }
