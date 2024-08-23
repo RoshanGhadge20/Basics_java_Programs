@@ -10,6 +10,7 @@ public class fibonacci_Series
 		int first=0, second=1, next;
 		System.out.println("Enter a number up to which we wants to check fibo series :- ");
 		int num=scanner.nextInt();
+		
 		for( int i=1;i<num;i++)
 		{
 			System.out.println(first+"");
@@ -17,7 +18,6 @@ public class fibonacci_Series
 			first=second;
 			second=next;
 		}
-		
 		
 	}
 	

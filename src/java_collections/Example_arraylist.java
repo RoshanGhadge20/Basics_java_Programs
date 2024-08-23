@@ -46,7 +46,5 @@ public class Example_arraylist
 		Collections.sort(aobj);	
 		
 		aobj.clear();
-		
-		
 	}
 }

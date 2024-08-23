@@ -22,8 +22,10 @@ public class Duplicate_characters_from_string
         
         // Print characters with a count greater than 1
         System.out.println("Duplicate characters in the string:");
-        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet()) {
-            if (entry.getValue() > 1) {
+        for (Map.Entry<Character, Integer> entry : charCountMap.entrySet())
+        {
+            if (entry.getValue() > 1)
+            {
                 System.out.println(entry.getKey());
             }
         }

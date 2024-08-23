@@ -11,7 +11,6 @@ public class Example_Hashmap
 		hmap.put(2, "RSG");
 		hmap.put(3, "SSG");
 		
-		
 		System.out.println("Size of hashmap"+ hmap.size());
 		System.out.println("Elements of hashmap "+ hmap);
 		
@@ -20,7 +19,6 @@ public class Example_Hashmap
 		System.out.println("Elements of hashmap "+ hmap);
 		
 		hmap.clear();
-		
 	
 	}
 }

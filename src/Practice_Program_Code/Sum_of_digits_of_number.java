@@ -13,6 +13,7 @@ public class Sum_of_digits_of_number
 			sum=sum+rem;
 			num=num/10;
 		}
+		
 		System.out.println("Sum of all digits are :- "+ sum);
 	}
 }

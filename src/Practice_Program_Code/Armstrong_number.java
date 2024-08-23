@@ -15,7 +15,6 @@ public class Armstrong_number
 			num=num/10;
 		}
 		
-		//System.out.println(rev);
 		if(a==rev)
 		{
 			System.out.println("Number is armstrong number");

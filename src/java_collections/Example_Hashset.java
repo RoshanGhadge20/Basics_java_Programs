@@ -32,6 +32,7 @@ public class Example_Hashset
 		hset.remove(2);
 		
 		hset.clear();
+		
 	}
 }
 

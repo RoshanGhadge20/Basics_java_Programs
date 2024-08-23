@@ -1,6 +1,5 @@
 package Practice_Program_Code;
 
-
 public class reverse_a_string
 {
 	public static void main(String[] args) 
