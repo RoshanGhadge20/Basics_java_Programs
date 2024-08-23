@@ -2,7 +2,8 @@ package java_coding_questions;
 
 import java.util.Arrays;
 
-public class AnagramChecker {
+public class AnagramChecker 
+{
 
     // Method to check if two strings are anagrams
     public static boolean areAnagrams(String str1, String str2) {
@@ -15,7 +16,8 @@ public class AnagramChecker {
         str2 = str2.replaceAll("\\s", "").toLowerCase();
 
         // If lengths differ, they cannot be anagrams
-        if (str1.length() != str2.length()) {
+        if (str1.length() != str2.length()) 
+        {
             return false;
         }
 
@@ -32,7 +34,8 @@ public class AnagramChecker {
     }
 
     // Main method to test the areAnagrams method
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         String str1 = "Listen";
         String str2 = "Silent";
 
@@ -44,5 +47,6 @@ public class AnagramChecker {
             System.out.println("\"" + str1 + "\" and \"" + str2 + "\" are not anagrams.");
         }
     }
+    
 }
 

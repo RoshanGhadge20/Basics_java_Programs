@@ -4,7 +4,6 @@ import java.util.Iterator;
 
 public class rem_dup_char_from_string 
 {
-
 	public static void main(String[] args) 
 	{
 	

@@ -2,14 +2,16 @@ package java_coding_questions;
 
 import java.util.Scanner;
 
-public class PalindromeChecker {
-
+public class PalindromeChecker
+{
     // Method to check if a string is a palindrome
-    public static boolean isPalindrome(String str) {
+    public static boolean isPalindrome(String str)
+    {
         int start = 0;
         int end = str.length() - 1;
         
-        while (start < end) {
+        while (start < end)
+        {
             // Ignore non-alphanumeric characters
             while (start < end && !Character.isLetterOrDigit(str.charAt(start))) {
                 start++;
@@ -30,13 +32,15 @@ public class PalindromeChecker {
     }
 
     // Main method to test the isPalindrome method
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("Enter a string to check if it's a palindrome:");
         String input = scanner.nextLine();
         
-        if (isPalindrome(input)) {
+        if (isPalindrome(input)) 
+        {
             System.out.println("\"" + input + "\" is a palindrome.");
         } else {
             System.out.println("\"" + input + "\" is not a palindrome.");

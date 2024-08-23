@@ -1,7 +1,9 @@
-public class Second_min_max_from_array {
+public class Second_min_max_from_array 
+{
 
     // Method to find the second maximum number in an array
-    public static int findSecondMax(int[] array) {
+    public static int findSecondMax(int[] array)
+    {
         if (array == null || array.length < 2) {
             throw new IllegalArgumentException("Array must contain at least two elements");
         }
@@ -65,7 +67,8 @@ public class Second_min_max_from_array {
 
             System.out.println("\nSecond maximum number in the array: " + secondMax);
             System.out.println("Second minimum number in the array: " + secondMin);
-        } catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException e)
+        {
             System.out.println(e.getMessage());
         }
     }

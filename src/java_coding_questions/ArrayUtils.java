@@ -1,7 +1,7 @@
 package java_coding_questions;
 
-public class ArrayUtils {
-
+public class ArrayUtils 
+{
     // Method to find the maximum number in an array
     public static int findMax(int[] array) {
         if (array == null || array.length == 0) {
@@ -18,7 +18,8 @@ public class ArrayUtils {
     }
 
     // Method to find the minimum number in an array
-    public static int findMin(int[] array) {
+    public static int findMin(int[] array)
+    {
         if (array == null || array.length == 0) {
             throw new IllegalArgumentException("Array must not be null or empty");
         }
@@ -29,11 +30,13 @@ public class ArrayUtils {
                 min = array[i];
             }
         }
+        
         return min;
     }
 
     // Main method to test the findMax and findMin methods
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         int[] array = {3, 5, 7, 2, 8, -1, 4, 10, 12};
         
         int max = findMax(array);
@@ -46,6 +49,7 @@ public class ArrayUtils {
         
         System.out.println("\nMaximum number in the array: " + max);
         System.out.println("Minimum number in the array: " + min);
+        
     }
 }
 

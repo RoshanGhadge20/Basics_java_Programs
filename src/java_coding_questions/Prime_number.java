@@ -1,7 +1,9 @@
 package java_coding_questions;
 
-public class Prime_number {
-	public static void main(String[] args) {
+public class Prime_number 
+{
+	public static void main(String[] args)
+	{
 		int num=29;
 		boolean flag = false;
 		for (int i=2;i<num/2;i++)
@@ -12,10 +14,14 @@ public class Prime_number {
 				break;
 			}
 		}
-		 if (!flag)
-		      System.out.println(num + " is a prime number.");
-		    else
-		      System.out.println(num + " is not a prime number.");
+		if (!flag)
+		{
+			System.out.println(num + " is a prime number.");
+		}
+		else
+		{
+			System.out.println(num + " is not a prime number.");
+		}
 	}
 
 }

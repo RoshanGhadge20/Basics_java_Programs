@@ -1,14 +1,17 @@
 package java_coding_questions;
 
-public class swap_string_with_stringbuilder {
-    public static void main(String[] args) {
+public class swap_string_with_stringbuilder 
+{
+    public static void main(String[] args) 
+    {
         String strn = "Hello world";
         String result = swapWords(strn);
         System.out.println("Input: " + strn);
         System.out.println("Output: " + result);
     }
 
-    public static String swapWords(String str) {
+    public static String swapWords(String str)
+    {
         // Find the index of the space character
         int spaceIndex = str.indexOf(' ');
 
@@ -22,5 +25,6 @@ public class swap_string_with_stringbuilder {
 
         // Return the swapped result
         return sb.toString();
+        
     }
 }
