@@ -5,7 +5,8 @@ import java.util.HashMap;
 import javax.swing.plaf.synth.SynthOptionPaneUI;
 import javax.xml.crypto.dsig.spec.HMACParameterSpec;
 
-public class Hash_map_Practice {
+public class Hash_map_Practice 
+{
 	public static void main(String[] args) 
 	{
 		HashMap<String, String> hs=new HashMap<String, String>();
@@ -22,7 +23,6 @@ public class Hash_map_Practice {
 		//fetching the all values 
 		System.out.println("Fetching all the values :- "+ hs.values());
 				
-		
 		//changing the value of any hashmap element 
 		System.out.println("chaning the value of hashmap element:- "+ hs.replace("lp", "Dell"));
 	
@@ -33,7 +33,7 @@ public class Hash_map_Practice {
 		System.out.println("Accss details :- "+ hs);
 		
 		System.out.println("End of program code");
+		
 	}
 	
-
 }

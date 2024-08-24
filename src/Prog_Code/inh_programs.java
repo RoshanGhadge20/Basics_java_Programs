@@ -22,25 +22,29 @@ package Prog_Code;
  */
 
 // Hierarchial Inheritance 
-class examp {
+class examp
+{
 	static void demo1() {
 		System.out.println("This call is from class A, demo1 method");
 	}
 }
 
-class exa extends examp {
+class exa extends examp
+{
 	static void demo2() {
 		System.out.println("This call is from class B, demo2 method");
 	}
 }
 
-class example3 extends exa {
+class example3 extends exa
+{
 	static void demo3() {
 		System.out.println("This call is from class c, demo3 method");
 	}
 }
 
-class inh_programs {
+class inh_programs
+{
 	public static void main(String[] args) {
 		examp objB = new examp();
 		objB.demo1();

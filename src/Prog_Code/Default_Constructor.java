@@ -1,8 +1,10 @@
 package Prog_Code;
 
-public class Default_Constructor {
+public class Default_Constructor
+{
 	
-	Default_Constructor(){
+	Default_Constructor()
+	{
 		System.out.println("Calling from default constructor");
 	}
 	
@@ -12,7 +14,6 @@ public class Default_Constructor {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Default_Constructor obj=new Default_Constructor();
 		obj.demo();

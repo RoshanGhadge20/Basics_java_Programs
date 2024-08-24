@@ -1,9 +1,10 @@
 package Prog_Code;
 
-public class nestted_loops {
+public class nestted_loops
+{
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args)
+	{
 		
 		//wants to printout the
 //		1234

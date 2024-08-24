@@ -10,7 +10,8 @@ interface b
 	public void msg(); 
 }
 
-public class Interfaces_example implements a,b {
+public class Interfaces_example implements a,b 
+{
 	public void show() {
 		System.out.println("this is the calling method for show");
 	}

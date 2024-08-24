@@ -1,6 +1,7 @@
 package Prog_Code;
 
-public interface demo_interface {
+public interface demo_interface 
+{
 	
 	public void getdemo();
 	

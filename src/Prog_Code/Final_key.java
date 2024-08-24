@@ -1,6 +1,7 @@
 package Prog_Code;
 
-public class Final_key {
+public class Final_key 
+{
 	
 	//Final keyword
 	final int a=1;
@@ -17,7 +18,8 @@ public class Final_key {
 	 * into another class
 	 */
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Final_key obj=new Final_key();
 		/*
 		 * obj.a=2; once final variable/method is assigned we cannot change it/override

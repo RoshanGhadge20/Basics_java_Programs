@@ -14,7 +14,7 @@ public class multi_threading extends Thread
 			System.out.println("Exception caught");
 		}
 		
-	}
+}
 	
 	public static void main(String[] args) 
 	{

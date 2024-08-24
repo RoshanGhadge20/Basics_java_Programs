@@ -1,12 +1,13 @@
 package Prog_Code;
 
-public class Exception_handling {
-
+public class Exception_handling
+{
 	int a = 1;
 	int b = 0;
 	int c;
 
-	void calculation() {
+	void calculation() 
+	{
 		try {
 			c = a / b;
 			System.out.println("Value of c is:- " + c);
@@ -18,9 +19,11 @@ public class Exception_handling {
 
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) 
+	{
 		Exception_handling obj = new Exception_handling();
 		obj.calculation();
 
 	}
+	
 }
