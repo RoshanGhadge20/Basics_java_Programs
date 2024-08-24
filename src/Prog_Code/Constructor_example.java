@@ -6,7 +6,6 @@ import java.security.DomainCombiner;
 import java.security.PublicKey;
 
 import javax.sound.midi.MidiChannel;
-
 /*
  * public class Constructor_examples { int a = 1; String n = "Roshan Ghadge";
  * 
@@ -37,7 +36,6 @@ import javax.sound.midi.MidiChannel;
  * }
  */
 
-
 //Constructor overloading 
 /*
  * public class Constructor_example { int id; String name; int d; public
@@ -53,8 +51,6 @@ import javax.sound.midi.MidiChannel;
  * 
  * }
  */
-
-// Copy constructor 
 
 public class Constructor_example
 {
@@ -77,7 +73,6 @@ public class Constructor_example
 			{
 				Constructor_example s1=new Constructor_example(20,"roshanghadge");
 				Constructor_example s2=new Constructor_example(s1);
-				
 				
 			}
 }
