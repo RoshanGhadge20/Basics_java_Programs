@@ -1,22 +1,22 @@
 package Prog_Code;
 
-public class practice_interface implements demo_interface {
+public class practice_interface implements demo_interface
+{
 
 	@Override
-	public void getdemo() {
-		// TODO Auto-generated method stub
-
+	public void getdemo()
+	{
 		System.out.println("Printing data from getdemo method");
 	}
 
 	@Override
-	public void setdemo() {
-		// TODO Auto-generated method stub
-
+	public void setdemo()
+	{
 		System.out.println("Printing data from setdemo method");
 	}
 
-	public static void main(String args[]) {
+	public static void main(String args[]) 
+	{
 
 		/*
 		 * Creating an object of implemented of class
@@ -24,7 +24,6 @@ public class practice_interface implements demo_interface {
 		 * practice_interface obj=new practice_interface(); obj.getdemo();
 		 * obj.setdemo();
 		 */
-		
 		demo_interface obj=new practice_interface();
 		obj.getdemo();
 		obj.setdemo();

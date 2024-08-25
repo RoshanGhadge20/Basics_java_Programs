@@ -6,7 +6,6 @@ public class prime_number
 {
 	public static void main(String[] args) 
 	{
-		
 		Scanner scanner=new Scanner(System.in);
 		System.out.println("Enter a Number");
 		int num=scanner.nextInt();
@@ -19,10 +18,6 @@ public class prime_number
 		else {
 			System.out.println("Its Not prime number");
 		}
-		
-		
-			
-		
 	}
 	public static boolean prime_number(int a)
 	{

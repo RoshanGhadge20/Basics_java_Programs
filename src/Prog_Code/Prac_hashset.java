@@ -3,9 +3,10 @@ package Prog_Code;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class Prac_hashset {
-	public static void main(String[] args) {
-		
+public class Prac_hashset
+{
+	public static void main(String[] args) 
+	{
 		HashSet<String> hs=new HashSet<String>();
 		hs.add("Roshan");
 		hs.add("Sanjay");

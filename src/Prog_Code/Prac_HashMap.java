@@ -5,10 +5,11 @@ import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
 
-public class Prac_HashMap {
-    public static void main(String[] args) {
+public class Prac_HashMap
+{
+    public static void main(String[] args)
+    {
         HashMap<String, Integer> hm = new HashMap<String, Integer>();
-
         hm.put("Roshan", 0);
         hm.put("s", 1);
         hm.put("R", 2);
