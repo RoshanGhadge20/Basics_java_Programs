@@ -14,7 +14,8 @@ package Prog_Code;
 
 //Program Code for Static block
 /*
- * public class static_word { 
+ * public class static_word
+ *  { 
  * static 
  * {
  * System.out.println("This is calling from static block of class"); 
@@ -33,12 +34,14 @@ package Prog_Code;
  * 
  * }
  * 
- * public static void main(String[] args) { static_word.demo(); static_word.c =
- * "Roshan"; 
+ * public static void main(String[] args) 
+ * { 
+ * static_word.demo(); static_word.c ="Roshan"; 
  * System.out.println("This is the static variable text that assigned to it in main method:- "
  * static_word.c); 
  * System.out.println("End of Program Execution");
  * 
- * } }
+ * } 
+ * }
  */
 

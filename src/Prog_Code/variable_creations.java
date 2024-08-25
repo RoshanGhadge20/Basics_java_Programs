@@ -1,7 +1,9 @@
 package Prog_Code;
 
-public class variable_creations {
-	public static void main(String[] args) {
+public class variable_creations 
+{
+	public static void main(String[] args) 
+	{
 		boolean b;
 		byte c=10;
 		short s=10000;

@@ -2,7 +2,6 @@ package Prog_Code;
 
 public class Super_keyword 
 {
-	
 	String name="Roshan";
 	
 	public void getname()
