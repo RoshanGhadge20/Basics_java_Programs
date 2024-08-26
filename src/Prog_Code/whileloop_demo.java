@@ -2,7 +2,6 @@ package Prog_Code;
 
 public class whileloop_demo 
 {
-
 	public static void main(String[] args)
 	{
 		//Basic program code of while loop
