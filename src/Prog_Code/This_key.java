@@ -2,7 +2,6 @@ package Prog_Code;
 
 public class This_key 
 {
-
 	int a = 1;
 
 	public void getdata(int a) 

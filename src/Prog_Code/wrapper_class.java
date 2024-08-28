@@ -7,7 +7,6 @@ import javax.swing.plaf.basic.BasicTextUI.BasicCaret;
 
 public class wrapper_class
 {
-
 	public static void main(String[] args)
 	{
 		//Autoboxing
