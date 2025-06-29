@@ -17,7 +17,6 @@ public class linkedlist_exmple {
         for (Integer i : example) {
             System.out.println(i);
         }
-
         example.addFirst(3);
         example.addLast(99);
         System.out.println(example.get(0));

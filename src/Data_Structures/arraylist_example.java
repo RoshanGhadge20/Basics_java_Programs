@@ -50,5 +50,10 @@ public class arraylist_example {
         // Fetchig the size of the array
         System.out.println(example1.size());
 
+        // Sorting the collection list
+        Collections.sort(example);
+
+        Collections.sort(example, Collections.reverseOrder());
+
     }
 }
