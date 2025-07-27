@@ -1,10 +1,8 @@
 package java_coding_questions;
 
-public class Array_Reverse
-{
+public class Array_Reverse {
 
-	public static void reverseArray(int[] array)
-	{
+	public static void reverseArray(int[] array) {
 		int start = 0;
 		int end = array.length - 1;
 		while (start < end) {
@@ -19,9 +17,8 @@ public class Array_Reverse
 		}
 	}
 
-	public static void main(String[] args) 
-	{
-		int[] array = {1, 2, 3, 4, 5, 6};
+	public static void main(String[] args) {
+		int[] array = { 1, 2, 3, 4, 5, 6 };
 
 		System.out.println("Original Array:");
 		for (int i : array) {
