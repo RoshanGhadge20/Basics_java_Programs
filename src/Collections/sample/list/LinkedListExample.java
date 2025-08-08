@@ -11,7 +11,11 @@ public class LinkedListExample {
         /*
          * features of linkedlist
          * 1. It used for the manipulations into data
-         * 2.
+         * 2. It like the containers of the train
+         * 3. In linkedlist we get the additional methods such as getfirst(), getlast(),
+         * removefirst(), removelast()
+         * to manipulate with the linkedlist
+         * 4. It maintains as per insertion of order
          */
 
         exampLinkedList.add("Roshan");
