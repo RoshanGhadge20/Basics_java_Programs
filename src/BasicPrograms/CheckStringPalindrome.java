@@ -34,6 +34,17 @@ public class CheckStringPalindrome {
         } else {
             System.out.println("String is not palindrome");
         }
+
+        // With the help of string builder
+        String str1 = "Roshan";
+        StringBuilder sb = new StringBuilder(str1);
+        String revStr1 = sb.reverse().toString();
+        System.out.println(revStr1);
+        if (str1.equals(revStr1)) {
+            System.out.println("String is palindrome");
+        } else {
+            System.out.println("String is not palindrome");
+        }
     }
 
 }
