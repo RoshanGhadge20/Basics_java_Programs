@@ -1,5 +1,8 @@
 package BasicPrograms;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class CountCharacterOfEachLetter {
 
     public static void main(String[] args) {
@@ -17,8 +20,18 @@ public class CountCharacterOfEachLetter {
             }
         }
         sb.append(str1.charAt(str1.length() - 1)).append(count);
+        // System.out.println("Printing the result :- " + sb.toString());
 
-        System.out.println("Printing the result :- " + sb.toString());
+        // With the help of HashMap
+        String sample = "ROSHAN";
+        HashMap<Character, Integer> count_character = new HashMap<Character, Integer>();
+        for (char c : sample.toCharArray()) {
+            count_character.put(c, count_character.getOrDefault(c, 0) + 1);
+        }
+
+        for (Map.Entry<Character, Integer> entry : count_character.entrySet()) {
+            System.out.println("Printing character:-  " + entry.getKey() + " Printing count of it" + entry.getValue());
+        }
     }
 
 }

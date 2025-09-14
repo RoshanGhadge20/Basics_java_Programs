@@ -7,7 +7,7 @@ public class FindDuplicateCharactersInString {
 
     public static void main(String[] args) {
 
-        // Finding the duplicate of characters into string with the help of arrys
+        // Finding the duplicate of characters into string with the help of arrays
         String example = "Learn Java Programming";
         example = example.toLowerCase();
 
@@ -20,9 +20,7 @@ public class FindDuplicateCharactersInString {
                 freq[c]++;
             }
         }
-
         System.out.println("Printing the duplicate of characters from string ");
-
         for (int i = 0; i < freq.length; i++) {
             if (freq[i] > 1) {
                 System.out.println((char) i + " : " + freq[i]);
@@ -30,15 +28,12 @@ public class FindDuplicateCharactersInString {
         }
 
         // With the help of Hashmap
-
-        HashMap<Character, Integer> charcountmap = new HashMap<>();
-
+        HashMap<Character, Integer> charcountmap = new HashMap<Character, Integer>();
         for (char a : example.toCharArray()) {
             if (a != ' ') {
                 charcountmap.put(a, charcountmap.getOrDefault(a, 0) + 1);
             }
         }
-
         System.out.println("Printing the duplicate of values from the string");
         for (Map.Entry<Character, Integer> entry : charcountmap.entrySet()) {
 
