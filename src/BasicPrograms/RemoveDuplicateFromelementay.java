@@ -8,7 +8,7 @@ public class RemoveDuplicateFromelementay {
 
         int sample[] = { 1, 2, 3, 4, 5, 6, 5, 6, 4 };
 
-        // with the helpf o set
+        // with the help of set
         HashSet<Integer> element1 = new HashSet<>();
         for (int element : sample) {
             element1.add(element);
