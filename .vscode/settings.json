@@ -1,3 +1,9 @@
 {
   "java.debug.settings.onBuildFailureProceed": true
 }
+{
+  "[java]": {
+    "editor.defaultFormatter": "Robinsstudio.prettier-java-formatter",
+    "editor.formatOnSave": true
+  }
+}
